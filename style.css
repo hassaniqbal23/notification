@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+
+button{
+    padding: 1rem;
+    color: #fff;
+    background-color: darkslateblue;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#container div{
+     background-color: rebeccapurple;
+     color: #fff;
+     padding: 1rem;
+     margin-bottom: 10px;
+     border-radius: 4px;
+     transition: all 0.3s ease-in-out;
+
+}
